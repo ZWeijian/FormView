@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">自定义表格</string>
+
+    <!-- 操作单元格 -->
+    <string name="bold">文字加粗</string>
+    <string name="cancel_bold">取消文字加粗</string>
+    <string name="merge_right_box">合并右单元格</string>
+    <string name="adjust_width_weight">调整宽度权重</string>
+
+    <!-- 操作列 -->
+    <string name="add_column">增加一列</string>
+    <string name="add_column_at_the_end">最右增加一列</string>
+    <string name="delete_column">删除一列</string>
+
+    <!-- 操作行 -->
+    <string name="add_one_row">增加一行</string>
+    <string name="add_one_row_at_the_end">最下增加一行</string>
+    <string name="delete_row">删除此行</string>
+    <string name="divide_row_equally">平分此行</string>
+    <string name="reset_row">重置此行</string>
+
+</resources>

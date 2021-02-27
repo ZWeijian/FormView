@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_out_side"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/white_r1"
+        android:minHeight="183dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="28dp"
+             android:drawablePadding="8dp"
+            android:text="离开提示"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alert_message"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:gravity="top|left"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:lineSpacingMultiplier="1.25"
+            android:text="内容还没保存内容还没保存内容还没保存内容还没保存"
+            android:textColor="#666666"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="66dp"
+                android:layout_height="26dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/f7f7f7_r1"
+                android:gravity="center"
+                android:text="取 消"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="66dp"
+                android:layout_height="26dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/main_btn_r1"
+                android:gravity="center"
+                android:text="确 认"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

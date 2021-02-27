@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorAccent">@color/main_color</item>
+    </style>
+
+    <style name="FormStyle">
+        <!--表示控件默认的颜色-->
+        <!--        <item name="android:colorControlNormal">@color/status_bar</item>-->
+        <!--表示控件被激活时的颜色-->
+        <item name="android:colorControlActivated">@color/main_color</item>
+    </style>
+
+    <!--Dialog渐出渐进-->
+    <style name="dialog_fade_in_out" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_fast</item>
+    </style>
+
+    <!--Dialog的主题-->
+    <style name="MyDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@color/colorDialog</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!--水平黑线-->
+    <style name="horizontal_black_line" parent="android:Widget.TextView">
+        <item name="android:layout_height">1.2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <!--垂直黑线-->
+    <style name="vertical_black_line" parent="android:Widget.TextView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1.2dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+</resources>

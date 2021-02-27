@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.formviewdemo.customform.form_view.function.FormView
+        android:id="@+id/form_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="30dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="操作提示:\n1.每个单元格都可以输入文字\n2.操作行：点击左边的按钮\n3.操作列：点击上边的按钮\n4.操作单元格：长按单元格"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+</LinearLayout>

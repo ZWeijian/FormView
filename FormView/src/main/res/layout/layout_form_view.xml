@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+     android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_column_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_column_1"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_2"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_3"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_4"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_5"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_6"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_7"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_8"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_9"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_10"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_11"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_12"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_13"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_14"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_column_15"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1.2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/col_menu_icon"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+<!--    <View-->
+<!--        style="@style/horizontal_black_line"-->
+<!--        android:layout_marginBottom="40dp" />-->
+
+
+</LinearLayout>

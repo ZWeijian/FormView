@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_line"
+        style="@style/horizontal_black_line"
+        android:layout_marginLeft="40dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_column_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@mipmap/row_menu_icon"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/ll_row_form"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <View
+            android:id="@+id/v_1"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/v_2"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_3"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_4"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_5"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_6"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_7"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_8"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_9"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_10"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_11"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_12"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_13"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_14"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/v_15"
+            style="@style/vertical_black_line"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:minHeight="50dp"
+            android:padding="3dp"
+            android:textColor="#333333"
+            android:textCursorDrawable="@drawable/shape_main_color"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <View style="@style/vertical_black_line" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_black_line"
+        android:layout_marginLeft="40dp" />
+</LinearLayout>

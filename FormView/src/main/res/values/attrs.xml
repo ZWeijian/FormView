@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FormView">
+        <!--设置表格-->
+        <!--表格的背景颜色-->
+        <attr name="form_bg_color" format="color" />
+        <!--表格是否可编辑-->
+        <attr name="form_enable" format="boolean" />
+
+        <!--设置行列-->
+        <!--总列数-->
+        <attr name="form_total_column_num" format="integer" />
+        <!--是否显示行按钮-->
+        <attr name="form_show_row_menu" format="boolean" />
+        <!--是否显示列按钮-->
+        <attr name="form_show_column_menu" format="boolean" />
+        <!--行按钮的图标-->
+        <attr name="form_row_menu_icon" format="reference" />
+        <!--列按钮的图标-->
+        <attr name="form_column_menu_icon" format="reference" />
+
+        <!--设置单元格-->
+        <!--字体大小-->
+        <attr name="form_text_size" format="dimension" />
+        <!--字体颜色-->
+        <attr name="form_text_color" format="color" />
+        <!--光标颜色-->
+        <attr name="form_cursor_drawable" format="reference" />
+        <!--单元格的最大宽度权重-->
+        <attr name="form_max_width_weight" format="float" />
+        <!--选中单元格的颜色-->
+        <attr name="form_select_color" format="color" />
+    </declare-styleable>
+
+</resources>
